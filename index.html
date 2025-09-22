@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海戰棋 - 雙人對戰</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>海戰棋</h1>
+    <div id="game-container">
+        <div id="status-display"></div>
+        <div id="boards-container">
+            <div id="player1-board-container" class="board active-board">
+                <h2>玩家 1 艦隊</h2>
+                <div id="player1-grid" class="grid-container"></div>
+            </div>
+            <div id="player2-board-container" class="board hidden-board">
+                <h2>玩家 2 艦隊</h2>
+                <div id="player2-grid" class="grid-container"></div>
+            </div>
+        </div>
+        <button id="restart-button" class="hidden">重新開始</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
